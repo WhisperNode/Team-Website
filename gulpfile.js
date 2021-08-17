@@ -134,12 +134,12 @@ const copyImg = (cb) => {
 	cb();
 };
 
-const copySupport = (cb) => {
-	return gulp
-		.src([".htaccess", "manifest.json", "browserconfig.xml"])
-		.pipe(gulp.dest("build/"));
-	cb();
-};
+// const copySupport = (cb) => {
+// 	return gulp
+// 		.src([".htaccess", "manifest.json", "browserconfig.xml"])
+// 		.pipe(gulp.dest("build/"));
+// 	cb();
+// };
 
 const copyVideo = (cb) => {
 	return gulp
@@ -191,7 +191,7 @@ const watcher = () => {
 exports.default = gulp.series(
 	gulp.parallel(
 		copyImg,
-		copySupport,
+		// copySupport,
 		copyVideo,
 		copyFonts,
 		copyLibs,

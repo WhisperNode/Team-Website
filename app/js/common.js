@@ -1270,6 +1270,8 @@ window.addEventListener("load", function () {
 	const btnDelegate = document.querySelectorAll(".btn-delegate");
 	const popupInput = document.querySelector(".popup-input input");
 	const popupBtn = document.querySelector(".popup-btn .btn");
+	const popupDigit_1 = document.querySelector(".js-popup-digit-1");
+	const popupDigit_2 = document.querySelector(".js-popup-digit-2");
 	btnDelegate.forEach((btn) => {
 		btn.addEventListener("click", function () {
 			if (this.classList.contains("js-secret")) {
@@ -1279,6 +1281,9 @@ window.addEventListener("load", function () {
 					"href",
 					"https://secretnodes.com/secret/chains/secret-2/validators/237A513A407E33679C746E350B3307BAA5BCDEFD"
 				);
+				/* ------- custom values for Networks popup ------- */
+				popupDigit_1.innerHTML = '5%';
+				popupDigit_2.innerHTML = '24.85%';
 			}
 			if (this.classList.contains("js-sentinel")) {
 				popupInput.value = "sentvaloper1tjgec0ssfrlldmut69xsp8vzljugg0g306aae2";
@@ -1286,6 +1291,9 @@ window.addEventListener("load", function () {
 					"href",
 					"https://explorer.sentinel.co/validator/sentvaloper1tjgec0ssfrlldmut69xsp8vzljugg0g306aae2"
 				);
+				/* ------- custom values for Sentinel popup ------- */
+				popupDigit_1.innerHTML = '4%';
+				popupDigit_2.innerHTML = '22.85%';
 			}
 		});
 	});
