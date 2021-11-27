@@ -1114,11 +1114,11 @@
 	    btn.addEventListener("click", function () {
 	      if (this.classList.contains("js-secret")) {
 	        popupInput.value = "secretvaloper16k26akna7h295rfjx3278s7xusnt736vy437y8";
-	        popupBtn.setAttribute("href", "https://secretnodes.com/secret/chains/secret-2/validators/237A513A407E33679C746E350B3307BAA5BCDEFD");
+	        popupBtn.setAttribute("href", "https://secretnodes.com/secret/chains/secret-4/validators/237A513A407E33679C746E350B3307BAA5BCDEFD");
 	        /* ------- custom values for Networks popup ------- */
 
 	        popupDigit_1.innerHTML = '5%';
-	        popupDigit_2.innerHTML = '24.85%';
+	        popupDigit_2.innerHTML = '30.24%';
 	      }
 
 	      if (this.classList.contains("js-sentinel")) {
@@ -1127,7 +1127,16 @@
 	        /* ------- custom values for Sentinel popup ------- */
 
 	        popupDigit_1.innerHTML = '4%';
-	        popupDigit_2.innerHTML = '22.85%';
+	        popupDigit_2.innerHTML = '58.89%';
+	      }
+
+	      if (this.classList.contains("js-osmosis")) {
+	        popupInput.value = "osmovaloper1md9f5524vtmrn64lyv2pdfn7cnkjkklf44vtjz";
+	        popupBtn.setAttribute("href", "https://www.mintscan.io/osmosis/validators/osmovaloper1md9f5524vtmrn64lyv2pdfn7cnkjkklf44vtjz");
+	        /* ------- custom values for Osmosis popup ------- */
+
+	        popupDigit_1.innerHTML = '5%';
+	        popupDigit_2.innerHTML = '121.32%';
 	      }
 	    });
 	  }); // Lottie
