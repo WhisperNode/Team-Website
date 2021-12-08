@@ -1138,6 +1138,16 @@
 	        popupDigit_1.innerHTML = '5%';
 	        popupDigit_2.innerHTML = '121.32%';
 	      }
+
+	      if (this.classList.contains("js-desmos")) {
+	        popupInput.value = "desmosvaloper1lf3fg79gf2qf6ept7ec22kjd8s6gj3swr2ca0v";
+	        popupBtn.setAttribute("href", "https://explorer.desmos.network/validators/desmosvaloper1lf3fg79gf2qf6ept7ec22kjd8s6gj3swr2ca0v");
+	        /* ------- custom values for Desmos popup ------- */
+
+	        popupDigit_1.innerHTML = '4%';
+	        popupDigit_2.innerHTML = '77.77%';
+	      }
+
 	    });
 	  }); // Lottie
 
