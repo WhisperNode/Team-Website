@@ -1144,8 +1144,18 @@
 	        popupBtn.setAttribute("href", "https://explorer.desmos.network/validators/desmosvaloper1lf3fg79gf2qf6ept7ec22kjd8s6gj3swr2ca0v");
 	        /* ------- custom values for Desmos popup ------- */
 
-	        popupDigit_1.innerHTML = '4%';
-	        popupDigit_2.innerHTML = '77.77%';
+	        popupDigit_1.innerHTML = '10%';
+	        popupDigit_2.innerHTML = '100%';
+	      }
+
+
+	      if (this.classList.contains("js-odin")) {
+	        popupInput.value = "odinvaloper18av2qz6mckvlj95c9u7sjqvd9sfk40vcxeshk6";
+	        popupBtn.setAttribute("href", "https://look.chillvalidation.com/odin/staking/odinvaloper18av2qz6mckvlj95c9u7sjqvd9sfk40vcxeshk6");
+	        /* ------- custom values for ODIN popup ------- */
+
+	         popupDigit_1.innerHTML = '10%';
+	        popupDigit_2.innerHTML = '100%';
 	      }
 
 	    });
