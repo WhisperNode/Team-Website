@@ -1158,6 +1158,24 @@
 	        popupDigit_2.innerHTML = '100%';
 	      }
 
+	       if (this.classList.contains("js-juno")) {
+	        popupInput.value = "junovaloper193xl2tqh2tjkld2zv49ku5s44ee4qmgr65jcep";
+	        popupBtn.setAttribute("href", "https://www.mintscan.io/juno/validators/junovaloper193xl2tqh2tjkld2zv49ku5s44ee4qmgr65jcep");
+	        /* ------- custom values for ODIN popup ------- */
+
+	         popupDigit_1.innerHTML = '5%';
+	        popupDigit_2.innerHTML = '70%';
+	      }
+
+	         if (this.classList.contains("js-comdex")) {
+	        popupInput.value = "comdexvaloper19qz6sgw7llrft2x05lp4swy569e5sla6gl3cuu";
+	        popupBtn.setAttribute("href", "https://www.mintscan.io/comdex/validators/comdexvaloper19qz6sgw7llrft2x05lp4swy569e5sla6gl3cuu");
+	        /* ------- custom values for ODIN popup ------- */
+
+	         popupDigit_1.innerHTML = '10%';
+	        popupDigit_2.innerHTML = '60%';
+	      }
+
 	    });
 	  }); // Lottie
 
