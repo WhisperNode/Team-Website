@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<title>Site name</title>
+		<title>WhisperNode</title>
 		//= parts/meta.html
 		<!-- css -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -546,131 +546,10 @@
 				<section class="section section_networks" id="networks">
 					<div class="wrapper">
 						<div class="networks-rows">
-							<div class="networks-row networks-row_1">
-								<div class="networks-info">
-									<h2 class="networks-title">Networks</h2>
-									<p class="networks-text">
-										Secret Network is the first blockchain with data privacy by
-										default for smart contracts. With Secret Network, developers
-										can finally build decentralized and permissionless
-										applications that also protect users and preserve privacy.
-										<a href="https://scrt.network/" target="_blank"
-											>Learn More.</a
-										>
-									</p>
-									<a
-										class="btn btn-delegate js-secret"
-										data-fancybox
-										data-src="#popup-delegate"
-										href="javascript:;"
-									>
-										<span>Delegate</span>
-										<div class="btn-delegate-abs">
-											<div class="btn-delegate-abs-text">
-												<img src="img/main/btn-delegate-text.svg" alt="text" />
-											</div>
-											<span class="icon-arrow-right"></span>
-										</div>
-									</a>
-								</div>
-								<div class="networks-illustration networks-illustration_1">
-									<div class="networks-circle networks-circle_1">
-										<svg>
-											<circle />
-										</svg>
-									</div>
-									<div class="networks-circle networks-circle_2">
-										<svg>
-											<circle />
-										</svg>
-									</div>
-									<div class="networks-icon networks-icon_1">
-										<img src="img/icons/shield.svg" alt="protect" />
-									</div>
-									<div class="networks-icon networks-icon_2">
-										<img src="img/icons/bd.svg" alt="bd" />
-									</div>
-									<div class="networks-icon networks-icon_3">
-										<img src="img/icons/transparency.svg" alt="transparency" />
-									</div>
-									<a
-										href="https://scrt.network/"
-										target="_blank"
-										class="networks-pic"
-									>
-										<div class="networks-pic-svg">
-											<svg>
-												<circle />
-											</svg>
-										</div>
-										<img src="img/main/secret-network.png" alt="png" />
-									</a>
-								</div>
-							</div>
-							<div class="networks-row networks-row_reverse networks-row_2">
-								<div class="networks-info">
-									<p class="networks-text">
-										Sentinel Network is a network layer that enables a true p2p
-										and decentralized applications and resources marketplace.
-										Sentinel enables anyone to create Public and Private
-										networks that provide access to both free and incentivized,
-										and also payment method agnostic (pre-paid/escrow/post-paid)
-										services (dApps) & distributed resources, enabling its
-										clients to become both producers and consumers in the
-										network.
-										<a href="https://sentinel.co/" target="_blank"
-											>Learn More.</a
-										>
-									</p>
-									<a
-										class="btn btn-delegate js-sentinel"
-										data-fancybox
-										data-src="#popup-delegate"
-										href="javascript:;"
-									>
-										<span>Delegate</span>
-										<div class="btn-delegate-abs">
-											<div class="btn-delegate-abs-text">
-												<img src="img/main/btn-delegate-text.svg" alt="text" />
-											</div>
-											<span class="icon-arrow-right"></span>
-										</div>
-									</a>
-								</div>
-								<div class="networks-illustration networks-illustration_2">
-									<div class="networks-circle networks-circle_1">
-										<svg>
-											<circle />
-										</svg>
-									</div>
-									<div class="networks-circle networks-circle_2">
-										<svg>
-											<circle />
-										</svg>
-									</div>
-									<div class="networks-icon networks-icon_1">
-										<img src="img/icons/privacy.svg" alt="protect" />
-									</div>
-									<div class="networks-icon networks-icon_2">
-										<img src="img/icons/cloud-computing.svg" alt="bd" />
-									</div>
-									<div class="networks-icon networks-icon_3">
-										<img src="img/icons/networking.svg" alt="transparency" />
-									</div>
-									<a
-										href="https://sentinel.co/"
-										target="_blank"
-										class="networks-pic"
-									>
-										<div class="networks-pic-svg">
-											<svg>
-												<circle />
-											</svg>
-										</div>
-										<img src="img/main/sentinel.png" alt="png" />
-									</a>
-								</div>
-							</div>
+
+              <!-- include network rows' -->
+              //= parts/networks
+
 						</div>
 					</div>
 				</section>
@@ -692,9 +571,7 @@
 							<div class="tab">
 								<ul class="tab__nav">
 									<li class="tab__item active">
-										<a href="#" class="tab__link" data-tab="tab-1"
-											>Secret Network</a
-										>
+										<a href="#" class="tab__link" data-tab="tab-1">Secret Network</a>
 									</li>
 									<li class="tab__item">
 										<a href="#" class="tab__link" data-tab="tab-2">Sentinel</a>
