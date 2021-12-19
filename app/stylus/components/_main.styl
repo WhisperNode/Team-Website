@@ -21,7 +21,7 @@
 	min-height 100%
 	display flex
 	flex-direction column
-	justify-content flex-start	
+	justify-content flex-start
 
 .wrapper
 	min-width $min-width
@@ -105,7 +105,7 @@ h3
 	font-size 22px
 	line-height 26px
 	font-weight 500
-	font-family $custom-font-family 
+	font-family $custom-font-family
 	text-align center
 	&-delegate
 		&:hover
@@ -138,7 +138,7 @@ h3
 				width 100px
 				height 100px
 				animation rotateElem 10s linear infinite
-				
+
 
 .section
 	&_head
@@ -233,8 +233,8 @@ h3
 				stroke-width 5px
 				stroke-dasharray 25 45
 				stroke-linecap round
-				cx 330.5 
-				cy 330.5 
+				cx 330.5
+				cy 330.5
 				r 320.5
 		&_1
 			right -173px
@@ -244,7 +244,7 @@ h3
 			right -126px
 			circle
 				stroke rgba($accent, 1)
-	&-gif 
+	&-gif
 		position absolute
 		top -72px
 		right -143px
@@ -287,7 +287,7 @@ h3
 					r 288
 
 
-		
+
 
 .services
 	&-title
@@ -431,7 +431,7 @@ h3
 						top 237px
 						left 0
 					&_3
-						bottom 0	
+						bottom 0
 						left 197px
 				&-pic
 					right 0
@@ -595,10 +595,10 @@ h3
 			height 100%
 			background-repeat no-repeat
 			background-position center
-			background-size cover	
+			background-size cover
 			&:before
 				content ''
-				position absolute 
+				position absolute
 				left 0
 				top 0
 				right 0
@@ -668,7 +668,7 @@ h3
 		margin-bottom 25px
 		&:before
 			content ''
-			position absolute 
+			position absolute
 			left 0
 			top 0
 			right 0
@@ -745,7 +745,7 @@ h3
 	align-items center
 	&-title
 		text-align center
-	input 
+	input
 		width calc(100% - 225px - 20px)
 		border 2px solid $accent
 		height 75px
@@ -843,7 +843,7 @@ h3
 			width 35px
 			height 35px
 			background url(../img/icons/copy.svg) center no-repeat
-			background-size contain 
+			background-size contain
 		small
 			position absolute
 			top calc(100% + 7px)
@@ -867,7 +867,7 @@ h3
 			top 0
 			bottom 0
 			background linear-gradient(to left, $white, rgba($white, 0));
-		input 
+		input
 			display flex
 			align-items center
 			white-space nowrap
@@ -880,7 +880,6 @@ h3
 			line-height 20px
 			color $bg
 	&-learn
-		margin-bottom 35px
 		display flex
 		justify-content space-between
 		align-items center
@@ -891,7 +890,7 @@ h3
 		&__item
 			display flex
 			font-size 18px
-			line-height 25px	
+			line-height 25px
 		&-name
 			min-width 150px
 			margin-right 18px
@@ -919,6 +918,7 @@ h3
 			font-family $custom-font-family
 	&-btn
 		.btn
+			margin-top: 33px
 			height 75px
 			width 100%
 			border-radius 20px
@@ -935,6 +935,14 @@ h3
 				color $white
 				font-family $custom-font-family
 				font-weight 600
+
+#staking-form
+	display: none
+	margin-bottom: 0
+	.popup-input
+		margin: 20px 0
+
+
 .fancybox-button svg path
 	fill $bg
 .fancybox-slide--html .fancybox-close-small
@@ -954,7 +962,7 @@ h3
 		cy 200
 		r 192
 	.head-circle
-		width 550px	
+		width 550px
 		height 550px
 	.head-circle svg circle
 		cx 275
@@ -965,7 +973,7 @@ h3
 
 
 @media (max-width : 1200px)
-	.wrapper 
+	.wrapper
 		max-width 960px
 	.section_head
 		padding-bottom 100px
@@ -1054,11 +1062,11 @@ h3
 		top -150px
 	.tutorials-circle_1
 		right -21px
-	
+
 
 /* Medium Devices, Desktops */
 @media (max-width : 991px)
-	.wrapper 
+	.wrapper
 		max-width 720px
 	h1
 		font-size 40px
@@ -1172,7 +1180,7 @@ h3
 	.tutorials-video-abs
 		display none
 	.tutorials-tab .tab__nav
-		margin 0 auto 28px 
+		margin 0 auto 28px
 	.tutorials-info
 		width auto
 	.tutorials-video
@@ -1196,7 +1204,7 @@ h3
 
 /* Small Devices, Tablets */
 @media (max-width : 767px)
-	.wrapper 
+	.wrapper
 		max-width 540px
 		padding 0 20px
 	.logo
@@ -1246,7 +1254,7 @@ h3
 		height 260px
 	.head-circle_2 svg circle
 		cx 150
-		cy 150 
+		cy 150
 		r 146
 	.head-circle_1 svg circle
 		cx 130

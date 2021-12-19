@@ -184,7 +184,7 @@ const watcher = () => {
 	watch("app/libs/**/*.*", gulp.series(libsCss, libsJs, cacheClear));
 	watch("app/js/**/*.*", gulp.series(mainJs, cacheClear));
 	watch("app/stylus/**/*.*", gulp.series(mainCssDev, cacheClear));
-	watch("app/parts/*.html", gulp.series(htmlDev, cacheClear));
+	watch("app/parts/**/*.html", gulp.series(htmlDev, cacheClear));
 	watch("app/*.html", gulp.series(htmlDev, cacheClear));
 };
 
