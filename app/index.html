@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<title>Site name</title>
+		<title>WhisperNode</title>
 		//= parts/meta.html
 		<!-- css -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -546,131 +546,10 @@
 				<section class="section section_networks" id="networks">
 					<div class="wrapper">
 						<div class="networks-rows">
-							<div class="networks-row networks-row_1">
-								<div class="networks-info">
-									<h2 class="networks-title">Networks</h2>
-									<p class="networks-text">
-										Secret Network is the first blockchain with data privacy by
-										default for smart contracts. With Secret Network, developers
-										can finally build decentralized and permissionless
-										applications that also protect users and preserve privacy.
-										<a href="https://scrt.network/" target="_blank"
-											>Learn More.</a
-										>
-									</p>
-									<a
-										class="btn btn-delegate js-secret"
-										data-fancybox
-										data-src="#popup-delegate"
-										href="javascript:;"
-									>
-										<span>Delegate</span>
-										<div class="btn-delegate-abs">
-											<div class="btn-delegate-abs-text">
-												<img src="img/main/btn-delegate-text.svg" alt="text" />
-											</div>
-											<span class="icon-arrow-right"></span>
-										</div>
-									</a>
-								</div>
-								<div class="networks-illustration networks-illustration_1">
-									<div class="networks-circle networks-circle_1">
-										<svg>
-											<circle />
-										</svg>
-									</div>
-									<div class="networks-circle networks-circle_2">
-										<svg>
-											<circle />
-										</svg>
-									</div>
-									<div class="networks-icon networks-icon_1">
-										<img src="img/icons/shield.svg" alt="protect" />
-									</div>
-									<div class="networks-icon networks-icon_2">
-										<img src="img/icons/bd.svg" alt="bd" />
-									</div>
-									<div class="networks-icon networks-icon_3">
-										<img src="img/icons/transparency.svg" alt="transparency" />
-									</div>
-									<a
-										href="https://scrt.network/"
-										target="_blank"
-										class="networks-pic"
-									>
-										<div class="networks-pic-svg">
-											<svg>
-												<circle />
-											</svg>
-										</div>
-										<img src="img/main/secret-network.png" alt="png" />
-									</a>
-								</div>
-							</div>
-							<div class="networks-row networks-row_reverse networks-row_2">
-								<div class="networks-info">
-									<p class="networks-text">
-										Sentinel Network is a network layer that enables a true p2p
-										and decentralized applications and resources marketplace.
-										Sentinel enables anyone to create Public and Private
-										networks that provide access to both free and incentivized,
-										and also payment method agnostic (pre-paid/escrow/post-paid)
-										services (dApps) & distributed resources, enabling its
-										clients to become both producers and consumers in the
-										network.
-										<a href="https://sentinel.co/" target="_blank"
-											>Learn More.</a
-										>
-									</p>
-									<a
-										class="btn btn-delegate js-sentinel"
-										data-fancybox
-										data-src="#popup-delegate"
-										href="javascript:;"
-									>
-										<span>Delegate</span>
-										<div class="btn-delegate-abs">
-											<div class="btn-delegate-abs-text">
-												<img src="img/main/btn-delegate-text.svg" alt="text" />
-											</div>
-											<span class="icon-arrow-right"></span>
-										</div>
-									</a>
-								</div>
-								<div class="networks-illustration networks-illustration_2">
-									<div class="networks-circle networks-circle_1">
-										<svg>
-											<circle />
-										</svg>
-									</div>
-									<div class="networks-circle networks-circle_2">
-										<svg>
-											<circle />
-										</svg>
-									</div>
-									<div class="networks-icon networks-icon_1">
-										<img src="img/icons/privacy.svg" alt="protect" />
-									</div>
-									<div class="networks-icon networks-icon_2">
-										<img src="img/icons/cloud-computing.svg" alt="bd" />
-									</div>
-									<div class="networks-icon networks-icon_3">
-										<img src="img/icons/networking.svg" alt="transparency" />
-									</div>
-									<a
-										href="https://sentinel.co/"
-										target="_blank"
-										class="networks-pic"
-									>
-										<div class="networks-pic-svg">
-											<svg>
-												<circle />
-											</svg>
-										</div>
-										<img src="img/main/sentinel.png" alt="png" />
-									</a>
-								</div>
-							</div>
+
+              <!-- include network rows' -->
+              //= parts/networks
+
 						</div>
 					</div>
 				</section>
@@ -692,9 +571,7 @@
 							<div class="tab">
 								<ul class="tab__nav">
 									<li class="tab__item active">
-										<a href="#" class="tab__link" data-tab="tab-1"
-											>Secret Network</a
-										>
+										<a href="#" class="tab__link" data-tab="tab-1">Secret Network</a>
 									</li>
 									<li class="tab__item">
 										<a href="#" class="tab__link" data-tab="tab-2">Sentinel</a>
@@ -703,7 +580,7 @@
 								<div class="tab__cont">
 									<div class="tab-box" data-cont="tab-1">
 										<div class="tutorials-cont">
-											<div class="tutorials-info">
+                      <div class="tutorials-info">
 												<h3 class="tutorials-subtitle">
 													Secret Network <br />
 													Ledger Delegation Tutorial
@@ -762,15 +639,14 @@
 											<div class="tutorials-info">
 												<h3 class="tutorials-subtitle">
 													Sentinel <br />
-													Ledger Delegation Tutorial
+													Wallet Upgrade Tutorial
 												</h3>
 												<p class="tutorials-subtext">
-													This tutorial shows Secret Network (SCRT) delegators
-													how to delegate their tokens to validators using a
-													Ledger Wallet and Puzzle.Report.
+													This tutorial shows Sentinel (DVPN) delegators
+													how to upgrade their wallet.
 												</p>
 												<a
-													href="https://www.youtube.com/watch?v=spC04j1jobQ&list=PLtyBbrMFNPsKGwp-fxVKcNQGutvFD6ReL"
+													href="https://www.youtube.com/watch?v=bK_9nfIFh40&t=1s"
 													target="_blank"
 													class="tutorials-view"
 												>
@@ -799,7 +675,7 @@
 													<div
 														class="tutorials-video-poster"
 														style="
-															background-image: url(img/main/video-poster-big.jpg);
+															background-image: url(img/main/video-poster-big-SENT.jpg);
 														"
 													>
 														<a
@@ -828,13 +704,14 @@
 								<div class="swiper-button-next"></div>
 							</div>
 						</div>
+
 						<div class="media-slider">
 							<!-- Slider main container -->
 							<div class="swiper-container">
 								<!-- Additional required wrapper -->
 								<div class="swiper-wrapper">
 									<!-- Slides -->
-									<div class="swiper-slide">
+                  <div class="swiper-slide">
 										<div class="media-cont">
 											<div class="media-video">
 												<div
@@ -863,7 +740,7 @@
 												<div
 													class="media-video-poster"
 													style="
-														background-image: url(img/main/video-poster-2.jpg);
+														background-image: url(img/main/video-poster-2.1.jpg);
 													"
 												></div>
 												<a
@@ -874,7 +751,8 @@
 													<span class="icon-play"></span>
 												</a>
 											</div>
-											<div class="media-text">🎙️ Wes Spencer Interview</div>
+											<div class="media-text">🎙️ What’s the TRUE POTENTIAL of Secret Network? A chat
+												with Secret insiders Brendan K. and Nick H.</div>
 										</div>
 									</div>
 									<div class="swiper-slide">
@@ -883,20 +761,19 @@
 												<div
 													class="media-video-poster"
 													style="
-														background-image: url(img/main/video-poster-1.jpg);
+														background-image: url(img/main/video-poster-3.jpg);
 													"
 												></div>
 												<a
 													data-fancybox
-													href="https://www.youtube.com/watch?v=qjb4GAqw2Q4&list=PLtyBbrMFNPsIHzp9QyWOK4rKx_JZRWTQI&index=2"
+													href="https://www.youtube.com/watch?v=Juvm6qwrzFM&list=PLtyBbrMFNPsIHzp9QyWOK4rKx_JZRWTQI&index=3"
 													class="media-video-play"
 												>
 													<span class="icon-play"></span>
 												</a>
 											</div>
 											<div class="media-text">
-												🎙 BlockHash Podcast EP. 141 - Brendan Kittredge | CEO of
-												Whispernode
+												🎙 DEFI Expectations #11 - Brendan Kittredge of Secret Network | Whispernode
 											</div>
 										</div>
 									</div>
@@ -906,20 +783,41 @@
 												<div
 													class="media-video-poster"
 													style="
-														background-image: url(img/main/video-poster-2.jpg);
+														background-image: url(img/main/video-poster-4.jpg);
 													"
 												></div>
 												<a
 													data-fancybox
-													href="https://www.youtube.com/watch?v=qjb4GAqw2Q4&list=PLtyBbrMFNPsIHzp9QyWOK4rKx_JZRWTQI&index=2"
+													href="https://www.youtube.com/watch?v=Q-2Xm7my80U&list=PLtyBbrMFNPsIHzp9QyWOK4rKx_JZRWTQI&index=4"
 													class="media-video-play"
 												>
 													<span class="icon-play"></span>
 												</a>
 											</div>
 											<div class="media-text">
-												🎙️ What’s the TRUE POTENTIAL of Secret Network? A chat
-												with Secret insiders Brendan K. and Nick H.
+												🎙️ SecretCode Podcast Ep. 3: Brendan Kittredge | Whispernode
+											</div>
+										</div>
+									</div>
+										<div class="swiper-slide">
+										<div class="media-cont">
+											<div class="media-video">
+												<div
+													class="media-video-poster"
+													style="
+														background-image: url(img/main/video-poster-5.jpg);
+													"
+												></div>
+												<a
+													data-fancybox
+													href="https://www.youtube.com/watch?v=YPOtv-SBd3M&list=PLtyBbrMFNPsIHzp9QyWOK4rKx_JZRWTQI&index=5"
+													class="media-video-play"
+												>
+													<span class="icon-play"></span>
+												</a>
+											</div>
+											<div class="media-text">
+												🎙 Sentinel Network AMA - Brendan Kittredge | Whispernode Interviews Dan Edlebeck & Peter Mancuso of Exidio
 											</div>
 										</div>
 									</div>
@@ -927,6 +825,7 @@
 							</div>
 						</div>
 					</div>
+
 				</section>
 				<section class="section section_team" id="team">
 					<div class="wrapper">
@@ -965,6 +864,26 @@
 								<div class="team-pos">CTO</div>
 								<a
 									href="https://www.linkedin.com/in/nick-hagianis/"
+									target="_blank"
+									class="team-icon"
+									><span class="icon-linkedin"></span
+								></a>
+							</li>
+              <li class="team__item">
+								<div
+									class="team-avatar"
+									style="background-image: url(img/main/team-decor-2.svg)"
+								>
+									<img
+										src="img/main/logo-pic.png"
+										style="max-width: 90%"
+										alt="avatar"
+									/>
+								</div>
+								<div class="team-name">Ben Schwartz</div>
+								<div class="team-pos">System-Admin/Super-Dev</div>
+								<a
+									href="https://www.linkedin.com/in/wasabiidev/"
 									target="_blank"
 									class="team-icon"
 									><span class="icon-linkedin"></span

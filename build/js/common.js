@@ -1114,11 +1114,11 @@
 	    btn.addEventListener("click", function () {
 	      if (this.classList.contains("js-secret")) {
 	        popupInput.value = "secretvaloper16k26akna7h295rfjx3278s7xusnt736vy437y8";
-	        popupBtn.setAttribute("href", "https://secretnodes.com/secret/chains/secret-4/validators/237A513A407E33679C746E350B3307BAA5BCDEFD");
+	        popupBtn.setAttribute("href", "https://secretnodes.com/secret/chains/secret-2/validators/237A513A407E33679C746E350B3307BAA5BCDEFD");
 	        /* ------- custom values for Networks popup ------- */
 
 	        popupDigit_1.innerHTML = '5%';
-	        popupDigit_2.innerHTML = '30.24%';
+	        popupDigit_2.innerHTML = '24.85%';
 	      }
 
 	      if (this.classList.contains("js-sentinel")) {
@@ -1127,7 +1127,7 @@
 	        /* ------- custom values for Sentinel popup ------- */
 
 	        popupDigit_1.innerHTML = '4%';
-	        popupDigit_2.innerHTML = '58.89%';
+	        popupDigit_2.innerHTML = '22.85%';
 	      }
 
 	      if (this.classList.contains("js-osmosis")) {
@@ -1148,34 +1148,32 @@
 	        popupDigit_2.innerHTML = '100%';
 	      }
 
-
 	      if (this.classList.contains("js-odin")) {
 	        popupInput.value = "odinvaloper18av2qz6mckvlj95c9u7sjqvd9sfk40vcxeshk6";
 	        popupBtn.setAttribute("href", "https://look.chillvalidation.com/odin/staking/odinvaloper18av2qz6mckvlj95c9u7sjqvd9sfk40vcxeshk6");
 	        /* ------- custom values for ODIN popup ------- */
 
-	         popupDigit_1.innerHTML = '10%';
+	        popupDigit_1.innerHTML = '10%';
 	        popupDigit_2.innerHTML = '100%';
 	      }
 
-	       if (this.classList.contains("js-juno")) {
+	      if (this.classList.contains("js-juno")) {
 	        popupInput.value = "junovaloper193xl2tqh2tjkld2zv49ku5s44ee4qmgr65jcep";
 	        popupBtn.setAttribute("href", "https://www.mintscan.io/juno/validators/junovaloper193xl2tqh2tjkld2zv49ku5s44ee4qmgr65jcep");
 	        /* ------- custom values for ODIN popup ------- */
 
-	         popupDigit_1.innerHTML = '5%';
+	        popupDigit_1.innerHTML = '5%';
 	        popupDigit_2.innerHTML = '70%';
 	      }
 
-	         if (this.classList.contains("js-comdex")) {
+	      if (this.classList.contains("js-comdex")) {
 	        popupInput.value = "comdexvaloper19qz6sgw7llrft2x05lp4swy569e5sla6gl3cuu";
 	        popupBtn.setAttribute("href", "https://www.mintscan.io/comdex/validators/comdexvaloper19qz6sgw7llrft2x05lp4swy569e5sla6gl3cuu");
 	        /* ------- custom values for ODIN popup ------- */
 
-	         popupDigit_1.innerHTML = '10%';
+	        popupDigit_1.innerHTML = '10%';
 	        popupDigit_2.innerHTML = '60%';
 	      }
-
 	    });
 	  }); // Lottie
 
