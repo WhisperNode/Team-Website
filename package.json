@@ -21,7 +21,7 @@
     "gulp-plumber": "^1.2.1",
     "gulp-rename": "^1.4.0",
     "gulp-rigger": "^0.5.8",
-    "gulp-sourcemaps": "^2.6.5",
+    "gulp-sourcemaps": "^3.0.0",
     "gulp-stylus": "^2.7.1",
     "gulp-tinypng-compress": "^1.2.5",
     "gulp-uglify": "^3.0.2",
