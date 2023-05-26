@@ -9,7 +9,7 @@
   "author": "Rybalko Alexey",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.17.9",
+    "@babel/core": "^7.21.8",
     "browser-sync": "^2.29.1",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
