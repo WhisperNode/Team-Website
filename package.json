@@ -9,7 +9,7 @@
   "author": "Rybalko Alexey",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.17.9",
+    "@babel/core": "^7.21.8",
     "browser-sync": "^2.29.3",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
@@ -36,9 +36,9 @@
     "@fancyapps/fancybox": "^3.5.7",
     "fancybox": "^3.0.1",
     "gsap": "^3.11.5",
-    "jquery": "^3.6.0",
+    "jquery": "^3.7.0",
     "readdirp": "^3.6.0",
-    "socket.io-parser": "^4.2.1",
+    "socket.io-parser": "^4.2.3",
     "swiper": "^9.3.2",
     "wavify": "^1.0.0"
   }
