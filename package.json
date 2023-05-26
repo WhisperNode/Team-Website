@@ -36,7 +36,7 @@
     "@fancyapps/fancybox": "^3.5.7",
     "fancybox": "^3.0.1",
     "gsap": "^3.11.5",
-    "jquery": "^3.6.0",
+    "jquery": "^3.7.0",
     "readdirp": "^3.6.0",
     "socket.io-parser": "^4.2.3",
     "swiper": "^9.3.2",
