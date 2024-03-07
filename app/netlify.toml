@@ -1,5 +1,0 @@
-[[redirects]]
-from = "https://dcentral.whispernode.com/*"
-to = "https://stashh.io/asset/secret1yeslznysatlaektr67mgh4mwdtgg3mn07cn43r/WhisperNodeDCentral"
-status = 301
-force = true

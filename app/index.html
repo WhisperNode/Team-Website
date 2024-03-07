@@ -22,10 +22,12 @@
 		<link rel="stylesheet" href="libs/fancybox/dist/jquery.fancybox.min.css" />
 		<link rel="stylesheet" href="css/common.css" />
 		<link rel="stylesheet" href="css/index.css" />
-		<!-- Simple Analytics Script -->
-		<script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
-		<noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
-		<!-- End SA Script -->
+		<!-- Vercel Analytics Script -->
+		<script>
+			window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+		  </script>
+		  <script defer src="/_vercel/insights/script.js"></script>
+		<!-- End Vercel Analytics Script -->
 	</head>
 	<body class="body loading">
 		//= parts/loader.html
