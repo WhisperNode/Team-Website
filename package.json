@@ -10,7 +10,7 @@
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.21.8",
-    "browser-sync": "^2.29.3",
+    "browser-sync": "^3.0.2",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-better-rollup": "^4.0.1",
