@@ -9,6 +9,9 @@
   "author": "Rybalko Alexey",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "browser-sync": "^2.29.3",
+    "gulp": "^5.0.0",
     "@babel/core": "^7.26.0",
     "browser-sync": "^3.0.4",
     "gulp": "^4.0.2",
